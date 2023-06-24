@@ -1,0 +1,61 @@
+body {
+    /* margin:10px 10% ;
+    font-family:Arial, Helvetica, sans-serif;
+ */
+    width:80%;
+    margin:auto;
+}
+.destaque {
+    font-weight: bold;
+}
+
+h1 {
+    background-color: #13e2e2;
+    text-align: center;
+    font-size: 40px;
+    color: darkblue;
+}
+
+h2 {
+    background-color: #9d9292;
+    margin: 30px auto 10px auto;
+    color: darkblue;
+    font-size: 30px;
+    /*Ao não informar uma cor a borda assumi a cor da tag/classe/id.*/
+    border-bottom: 3px solid;
+    padding: 8px
+}
+.centro {
+    text-align: center;
+}
+a:link,
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+ul {
+    padding-left: 0;
+}
+li{ 
+    list-style-position: inside;
+}
+
+.menu {
+    text-align:right;
+}
+
+.menu li {
+    text-align: right;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu a {
+    display: inline-block;
+    background-color: #c0b0b0;
+    padding: 20px;
+}
